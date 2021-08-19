@@ -11,9 +11,9 @@ public:
         cin >> name;
         return name;
     }
-    //Anyone who inherits Person will need to provide there own implementation of this function
+    //Anyone who inherits Person will need to provide there own definition of this function
     virtual void getData() = 0;
-    //Anyone who inherits Person will need to provide there own implementation of this function
+    //Anyone who inherits Person will need to provide there own definition of this function
     virtual bool isOutstanding() = 0;
 };
 
